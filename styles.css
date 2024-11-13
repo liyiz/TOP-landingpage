@@ -1,0 +1,227 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+}
+
+a {
+    text-decoration:none;
+}
+
+header, footer, section {
+    border:1px solid red;
+
+    padding:0 10%;
+}
+
+header, footer {
+    background-color: #1f2937;
+    color:#ffffff;
+    flex:1 0 auto;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:stretch;
+}
+
+header ul {
+    display: flex;
+    gap:24px;
+    
+}
+
+header li a {
+    color:#e5e7eb;
+    font-weight:400;
+}
+
+section {
+    flex:1 1 500px;
+}
+
+section.cta {
+    flex:1 1 auto;
+}
+
+.hero {
+    background-color:#1f2937;
+    color:#ffffff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero .left {
+    /* border:1px solid red; */
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.hero .title {
+    /* border:1px solid red; */
+
+    font-size:48px;
+    color:#f9faf8;
+    font-weight:900;
+}
+
+.hero .subtext {
+    /* border:1px solid red; */
+
+    font-size:18px;
+    color: #e5e7eb;
+}
+
+.info {
+    border:1px solid blue;
+}
+
+.info h2 {
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+}
+
+.content {
+    border:1px solid blue;
+
+    display:flex;
+    justify-content: space-around;
+}
+
+.item {
+    border:1px solid purple;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.frame {
+    width:200px;
+    height:200px;
+    border-radius:6px;
+    border:4px solid #3882f6;
+    margin:0;
+}
+
+.caption {
+    text-align:center;
+    font-size:18px;
+    color:#1f2937;
+}
+
+.testimony {
+    background-color:#e5e7eb;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote {
+    width: 700px;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+
+.testimony blockquote {
+    margin:0;
+}
+
+.testimony blockquote p {
+    margin:0;
+
+    color:#1f2937;
+    font-size:36px;
+    font-style:italic;
+    font-weight:300;
+
+}
+
+.quote p {
+    margin:0;
+    margin-right:30px;
+    font-size:18px;
+    /* text-align:end; */
+    font-weight:900;
+
+}
+
+
+
+
+
+
+
+.cta {
+    padding-top:72px;
+    padding-bottom:72px;
+}
+
+.cta .container {
+    background-color:#3882f6;
+    border-radius: 6px;
+    padding:24px 48px;
+
+    color:#ffffff;
+
+    display:flex;
+    justify-content:space-around;
+}
+
+.cta.container.left {
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+
+.logo {
+    color:#f9faf8;
+    font-size:24px;
+    font-weight:900;
+
+    display:flex;
+    align-items:center;
+}
+
+button.signup {
+    color:#ffffff;
+    background-color:#3882f6;
+    border-radius: 6px;
+}
+
+.hero button.signup {
+    border:none;
+}
+
+.cta button.signup {
+    border:2px solid #ffffff;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 36px 0;
+}

@@ -214,8 +214,8 @@ section.cta {
 
 
 .cta {
-    padding-top:72px;
-    padding-bottom:72px;
+    /* padding-top:72px;
+    padding-bottom:72px; */
     flex: 1 1 350px;
 
 }
@@ -223,21 +223,30 @@ section.cta {
 .cta .container {
     background-color:#3882f6;
     border-radius: 6px;
-    padding:24px 48px;
+    padding:50px 120px;
+    margin-top: 84px;
+    margin-bottom: 84px;
 
     color:#ffffff;
 
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
 }
 
 .cta.container.left {
+
     display:flex;
     flex-direction:column;
 }
 
+.cta h3, .cta p {
+    margin:0;
+}
 
+.cta p {
+    font-weight:300;
+}
 
 
 
